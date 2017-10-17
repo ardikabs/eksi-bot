@@ -28,7 +28,7 @@ class FirebaseHandler{
         rule1.hour = 3;rule1.minute = 0;
         rule2.hour = 9;rule2.minute = 0;
         rule3.hour = 14;rule3.minute = 0;
-        ruleReminder.hour = 16;ruleReminder.minute = 0;      
+        // ruleReminder.hour = 16;ruleReminder.minute = 0;      
       
         schedule.scheduleJob(rule1,()=>{
             console.log("Running at 10.00 WIB");          
@@ -46,10 +46,10 @@ class FirebaseHandler{
             this.notification();            
         }); 
 
-        schedule.scheduleJob(ruleReminder, ()=>{
-            console.log("Reminder For Share Information");
-            this.reminder();            
-        }); 
+        // schedule.scheduleJob(ruleReminder, ()=>{
+        //     console.log("Reminder For Share Information");
+        //     this.reminder();            
+        // }); 
         
     }
 
