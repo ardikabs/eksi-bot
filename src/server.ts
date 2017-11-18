@@ -67,7 +67,7 @@ class Server {
         router = express.Router();
 
         router.get("/", (req, res, next) => {
-            res.send("Coming soon");
+            res.json({message:"Eksi Chatbot ©2017"});
         });
 
         this.app.use('/', router);
