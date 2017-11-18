@@ -1,6 +1,6 @@
-Eksi BOT
+Eksi CHATBOT
 ==========================
-Eksi BOT adalah layanan LINE Chatbot untuk membantumu mengetahui informasi pengiriman barangmu yang menggunakan JNE, WAHANA, dan SiCepat.
+Eksi adalah layanan LINE Chatbot untuk membantumu mengetahui informasi pengiriman barangmu yang menggunakan JNE, WAHANA, dan SiCepat.
 
 ### Usage
 ```
