@@ -124,7 +124,7 @@ class Server {
         }
 
         setInterval(function () {
-            http.get("http://eksi-bot.herokuapp.com/");
+            http.get("http://myeksi.herokuapp.com/");
             console.log("Keep Server Awake");
         }, 300000);
 
